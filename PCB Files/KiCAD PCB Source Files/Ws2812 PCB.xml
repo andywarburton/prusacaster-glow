@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\Circuit2PCB\andywarburton WS2812B RGB LEDs\KiCAD PCB Source Files\Ws2812 PCB.kicad_sch</source>
+    <date>08/03/2024 11:31:39 pm</date>
+    <tool>Eeschema 7.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Ws2812 Schematic</title>
+        <company> Designed By : Engr. Ahsan Mehmood Awan</company>
+        <rev>1</rev>
+        <date>2024-03-08</date>
+        <source>Ws2812 PCB.kicad_sch</source>
+        <comment number="1" value="WhatsApp +923491540717"/>
+        <comment number="2" value="https://www.fiverr.com/pcbdesign_engr"/>
+        <comment number="3" value="engrahsanmehmoodawan@gmail.com"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Ahsan Libs:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part#">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JLCPCB Part#" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ws2812 PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b722b064-a803-4ff7-a31d-9d8200f457a8</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Ahsan Libs:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part#">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JLCPCB Part#" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ws2812 PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d87692cd-bbdc-4927-83a0-0d9143137c3d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Ahsan Libs:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part#">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="JLCPCB Part#" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ws2812 PCB.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5580d050-6c32-4a47-a62f-554ed905b853</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>WS2812B</value>
+      <footprint>Ahsan Libs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2761795</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="JLCPCB Part#" value="C2761795"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ws2812 PCB.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>263e17ee-5ac9-410b-a07a-117d4a535f5a</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>WS2812B</value>
+      <footprint>Ahsan Libs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2761795</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="JLCPCB Part#" value="C2761795"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ws2812 PCB.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1cf6570-94d2-47fc-a17c-b6d20209a55e</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>WS2812B</value>
+      <footprint>Ahsan Libs:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part#">C2761795</field>
+      </fields>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="JLCPCB Part#" value="C2761795"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ws2812 PCB.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6601fb97-856e-4c83-a531-bc8f562bfa5c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>470</value>
+      <footprint>Ahsan Libs:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="JLCPCB Part#">C23179</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLCPCB Part#" value="C23179"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ws2812 PCB.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef57e7ca-0de2-436d-ba85-bf7e3dc0b8eb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x01">
+      <description>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="DIN">
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="2" name="DOUT">
+      <node ref="LED3" pin="2" pinfunction="DOUT" pintype="output"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="LED1" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="LED3" pin="3" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(LED1-DIN)">
+      <node ref="LED1" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(LED1-DOUT)">
+      <node ref="LED1" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED2" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(LED2-DOUT)">
+      <node ref="LED2" pin="2" pinfunction="DOUT" pintype="output"/>
+      <node ref="LED3" pin="4" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="7" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="LED3" pin="1" pinfunction="VDD" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
